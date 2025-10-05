@@ -1,10 +1,10 @@
 from openai import OpenAI
 import os
-from .env import load_dotenv
+
 import base64
 import streamlit as st
-load_dotenv()
-api_key = os.getenv("openai_api_key")
+OPENAI_API_KEY='your_api_key'
+api_key = OPENAI_API_KEY
 
 client = OpenAI(api_key=api_key)
 
@@ -47,4 +47,5 @@ def autoplay_audio(file_path: str):
     </audio>
     """
     st.markdown(md, unsafe_allow_html=True)
+
 
