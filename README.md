@@ -91,4 +91,7 @@ streamlit run app.py
 
 ## Important Note
 
-For security reasons, the OpenAI API key has been removed from this repository. In this project, the API key is directly set in utils.py instead of using a .env file for simplicity in running the Streamlit app. To run the app locally, clone the repository, add your OpenAI API key in the utils.py file, install the required dependencies using pip install -r requirements.txt, and run the app with (streamlit run app.py). Once running, you can interact with the voice-enabled chatbot using the microphone button to record queries and receive spoken responses.
+For security reasons, the OpenAI API key has been removed from this repository. In this project, the API key is directly set in utils.py instead of using a .env file for simplicity in running the Streamlit app. To run the app locally, clone the repository, add your OpenAI API key in the utils.py file, install the required dependencies using 
+```pip install -r requirements.txt```, and run the app with 
+```streamlit run streamlit_app.py``` 
+Once running, you can interact with the voice-enabled chatbot using the microphone button to record queries and receive spoken responses.
