@@ -88,3 +88,7 @@ streamlit run app.py
 - get_answer(messages) – Generates chatbot responses using GPT
 - text_to_speech(text) – Converts text responses to audio
 - autoplay_audio(audio_file) – Plays audio in the Streamlit app
+
+## Important Note
+
+For security reasons, the OpenAI API key has been removed from this repository. In this project, the API key is directly set in utils.py instead of using a .env file for simplicity in running the Streamlit app. To run the app locally, clone the repository, add your OpenAI API key in the utils.py file, install the required dependencies using pip install -r requirements.txt, and run the app with (streamlit run app.py). Once running, you can interact with the voice-enabled chatbot using the microphone button to record queries and receive spoken responses.
