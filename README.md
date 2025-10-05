@@ -27,7 +27,7 @@ A **voice-responsive chatbot** built using **Streamlit** and **OpenAI's speech-t
 ## 📁 Project Structure
 
 ```
-voice-chatbot-assistant/
+Voice Enabled Chatbot/
 │
 ├── app.py # Streamlit application
 ├── utils.py # Functions for STT, TTS, and chatbot responses
