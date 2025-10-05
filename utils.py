@@ -1,6 +1,6 @@
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
+from .env import load_dotenv
 import base64
 import streamlit as st
 load_dotenv()
@@ -47,3 +47,4 @@ def autoplay_audio(file_path: str):
     </audio>
     """
     st.markdown(md, unsafe_allow_html=True)
+
